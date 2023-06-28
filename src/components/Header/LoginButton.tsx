@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import * as S from "../../styles";
+import * as S from "../../styles/headerStyles";
 import UIDarkButton from "../UI/UIDarkButton";
 import LoginSign from "./LoginSign";
 import {vars} from "../../styles/vars";

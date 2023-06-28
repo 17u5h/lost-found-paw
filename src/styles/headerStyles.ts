@@ -14,6 +14,7 @@ export const HeaderLogo = styled.div`
   width: 100px;
   height: 60px;
   background-color: #fff;
+	color: #000;
 `
 export const SearchBlock = styled.div`
   display: flex;
@@ -27,8 +28,9 @@ export const SearchField = styled.input`
   border-radius: 20px;
   padding-left: 20px;
 
-  &:active {
-    border: 1px solid #000;
+  &:focus {
+    outline: 2px solid ${vars.$colorThemeMainLighter};
+		box-shadow: 0 0 30px ${vars.$colorThemeMainLighter};
   }
 
   &::placeholder {

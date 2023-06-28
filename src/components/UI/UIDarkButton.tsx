@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import * as S from "../../styles";
+import * as S from "../../styles/headerStyles";
 
 type Props = {
 	children: string | ReactNode

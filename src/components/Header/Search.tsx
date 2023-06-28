@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from '../../styles'
+import * as S from '../../styles/headerStyles'
 import UIDarkButton from "../UI/UIDarkButton";
 
 const Search = () => {
