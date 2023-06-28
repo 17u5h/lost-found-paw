@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import AppRoutes from "./routes/routes";
+import {GlobalStyle} from "./styles/globalStyle";
 
 function App() {
 	return (
-		<div className="App">
-			сайт для поиска пропавших питомцев
-		</div>
+		<>
+			<GlobalStyle/>
+			<AppRoutes/>
+		</>
 	);
 }
 
