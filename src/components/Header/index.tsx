@@ -1,12 +1,16 @@
 import React from 'react';
+import Logo from "../Logo";
+import Search from "./Search";
+import LoginButton from "./LoginButton";
+import * as S from '../../styles'
 
 const Header = () => {
 	return (
-		<div>
+		<S.Header>
 			<Logo/>
 			<Search/>
-			<Profile/>
-		</div>
+			<LoginButton/>
+		</S.Header>
 	);
 };
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import * as S from '../styles'
 
 const Logo = () => {
 	return (
-		<div>
-			
-		</div>
+		<S.HeaderLogo>
+
+		</S.HeaderLogo>
 	);
 };
 
