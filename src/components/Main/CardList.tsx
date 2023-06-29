@@ -12,7 +12,8 @@ const CardList = () => {
 																				 petName={card.petName}
 																				 addressLost={card.addressLost}
 																				 images={card.images}
-																				 isFound={card.isFound}/>))}
+																				 isFound={card.isFound}
+																				 founderData={card.founderData}/>))}
 			</S.CardListContainer>
 		</S.CardListWrapper>
 

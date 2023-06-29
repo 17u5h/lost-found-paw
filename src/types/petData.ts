@@ -3,7 +3,7 @@ export type Pet = {
 	isFound: boolean
 	petName: string
 	type?: string
-	images?: string[]
+	images?: any    //исправить после стаба
 	dateLost?: string
 	dateFound?: string
 	ownerData?: {

@@ -1,10 +1,20 @@
+import dog1 from './stubImages/dog1.jpg'
+import dog2 from './stubImages/dog2.jpg'
+import dog3 from './stubImages/dog3.jpg'
+import cat1 from './stubImages/cat1.jpg'
+import cat2 from './stubImages/cat2.jpg'
+import cat3 from './stubImages/cat3.jpg'
+import koala from './stubImages/koala.jpg'
+import parrot1 from './stubImages/parrot1.jpg'
+
+
 export const stubData = [
 	{
 		id:1,
 		isFound: false,
 		petName: 'Жужа',
 		type: 'dog',
-		images: ['img1URL', 'img2URL'],
+		images: [dog1],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -23,9 +33,9 @@ export const stubData = [
 	},{
 		id:2,
 		isFound: false,
-		petName: 'Кусака',
-		type: 'dog',
-		images: ['img1URL', 'img2URL'],
+		petName: 'Жувака',
+		type: 'Koala',
+		images: [koala],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -46,7 +56,7 @@ export const stubData = [
 		isFound: false,
 		petName: 'Заяц-попрыгаец',
 		type: 'dog',
-		images: ['img1URL', 'img2URL'],
+		images: [dog2],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -64,10 +74,10 @@ export const stubData = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:4,
-		isFound: false,
+		isFound: true,
 		petName: 'Пес-барбос',
 		type: 'dog',
-		images: ['img1URL', 'img2URL'],
+		images: [dog3],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -88,7 +98,7 @@ export const stubData = [
 		isFound: false,
 		petName: 'Валерьянка',
 		type: 'cat',
-		images: ['img1URL', 'img2URL'],
+		images: [cat1],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -106,10 +116,10 @@ export const stubData = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:6,
-		isFound: false,
-		petName: 'Мурыся',
+		isFound: true,
+		petName: 'Кися',
 		type: 'cat',
-		images: ['img1URL', 'img2URL'],
+		images: [cat2],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -128,9 +138,9 @@ export const stubData = [
 	},{
 		id:7,
 		isFound: false,
-		petName: 'Кися',
+		petName: 'Мурыся',
 		type: 'cat',
-		images: ['img1URL', 'img2URL'],
+		images: [cat3],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {
@@ -151,7 +161,7 @@ export const stubData = [
 		isFound: false,
 		petName: 'Гога',
 		type: 'parrot',
-		images: ['img1URL', 'img2URL'],
+		images: [parrot1],
 		dateLost: '20.06.2023',
 		dateFound: '',
 		ownerData: {

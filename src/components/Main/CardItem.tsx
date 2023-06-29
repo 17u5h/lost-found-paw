@@ -2,11 +2,15 @@ import React from 'react';
 import {Pet} from "../../types/petData";
 import * as S from "../../styles/mainStyles";
 
-const CardItem = ({id, petName, addressLost, images, isFound}: Pet) => {
+const CardItem = ({id, petName, addressLost, images, isFound, founderData}: Pet) => {
 	return (
 		<S.CardContainer>
 			<S.CardTitle>{petName}</S.CardTitle>
-
+			{images[0] ? <S.CardImage src={images[0]} alt='pet photo'/> : <p>no picture</p>}
+			<S.CardDescription>
+				<p>{addressLost}</p>
+				<p>Способ связи с владельцем: {founderData?.founderPreferContacts}</p>
+			</S.CardDescription>
 		</S.CardContainer>
 	);
 };
