@@ -44,6 +44,17 @@ export const CardImage = styled.img`
   width: 100%;
   object-fit: contain;
 `
+export const LostFoundSign = styled.p`
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	font-size: 70px;
+	font-weight: 600;
+	opacity: 0.6;
+	text-align: center;
+	color: ${(props) => (props.isFound ? vars.$colorFound : vars.$colorLost)};
+`
 
 export const CardDescription = styled.div`
   position: absolute;
