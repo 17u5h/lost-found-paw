@@ -1,7 +1,8 @@
-export const data = [
+export const stubData = [
 	{
 		id:1,
-		name: 'Жужа',
+		isFound: false,
+		petName: 'Жужа',
 		type: 'dog',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -21,7 +22,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:2,
-		name: 'Кусака',
+		isFound: false,
+		petName: 'Кусака',
 		type: 'dog',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -41,7 +43,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:3,
-		name: 'Заяц-попрыгаец',
+		isFound: false,
+		petName: 'Заяц-попрыгаец',
 		type: 'dog',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -61,7 +64,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:4,
-		name: 'Пес-барбос',
+		isFound: false,
+		petName: 'Пес-барбос',
 		type: 'dog',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -81,7 +85,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:5,
-		name: 'Валерьянка',
+		isFound: false,
+		petName: 'Валерьянка',
 		type: 'cat',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -101,7 +106,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:6,
-		name: 'Мурыся',
+		isFound: false,
+		petName: 'Мурыся',
 		type: 'cat',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -121,7 +127,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:7,
-		name: 'Кися',
+		isFound: false,
+		petName: 'Кися',
 		type: 'cat',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
@@ -141,7 +148,8 @@ export const data = [
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:8,
-		name: 'Гога',
+		isFound: false,
+		petName: 'Гога',
 		type: 'parrot',
 		images: ['img1URL', 'img2URL'],
 		dateLost: '20.06.2023',
