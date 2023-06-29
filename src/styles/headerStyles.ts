@@ -27,6 +27,7 @@ export const SearchField = styled.input`
   border: none;
   border-radius: 20px;
   padding-left: 20px;
+	font-size: ${vars.$fontsizeRegular};
 
   &:focus {
     outline: 2px solid ${vars.$colorThemeMainLighter};
