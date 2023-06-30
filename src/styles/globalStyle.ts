@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a, a:visited {
+		color: ${vars.$colorThemeReverse};
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 		cursor: pointer;
