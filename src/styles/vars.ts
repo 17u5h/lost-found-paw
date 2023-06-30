@@ -5,4 +5,6 @@ export const vars ={
 	$colorThemeMain: '#7c388a',
 	$colorThemeMainLighter: '#c68fd5',
 	$colorThemeReverse: '#fff',
+	$colorFound: '#8cce4e',
+	$colorLost: '#ce614e',
 }

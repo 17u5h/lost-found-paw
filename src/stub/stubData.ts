@@ -21,14 +21,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000001'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 1ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:2,
@@ -42,14 +42,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000002'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 2ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:3,
@@ -63,14 +63,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000003'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 3ей гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:4,
@@ -84,14 +84,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000004'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 4ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:5,
@@ -105,14 +105,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000005'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 5ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:6,
@@ -126,14 +126,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000006'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 6ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:7,
@@ -147,14 +147,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000007'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 7ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},{
 		id:8,
@@ -168,14 +168,14 @@ export const stubData = [
 			ownerName: 'Вася',
 			ownerLastName: 'Пупкин',
 			ownerAddress: 'ул.Рукожопов 25а, кв. 51',
-			ownerTel: '+70000000000'
+			ownerTel: '+70000000008'
 		},
 		founderData:{
 			founderName: 'Петя',
 			founderTel: '+70000000000',
 			founderPreferContacts: 'три раза в колокол'
 		},
-		addressLost: 'ул. 197659ой гаврдейской дивизии, д.23',
+		addressLost: 'ул. 8ой гаврдейской дивизии, д.23',
 		addressFound: 'г.Томск, ул.Малые Задроты'
 	},
 ]
