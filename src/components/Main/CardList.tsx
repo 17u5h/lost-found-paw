@@ -13,7 +13,8 @@ const CardList = () => {
 																				 addressLost={card.addressLost}
 																				 images={card.images}
 																				 isFound={card.isFound}
-																				 founderData={card.founderData}/>))}
+																				 founderData={card.founderData}
+																				 ownerData={card.ownerData}/>))}
 			</S.CardListContainer>
 		</S.CardListWrapper>
 

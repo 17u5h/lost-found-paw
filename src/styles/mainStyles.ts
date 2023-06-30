@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import {vars} from "./vars";
 
+type Props = {
+	$isFound: boolean
+}
+
 export const CardListWrapper = styled.div`
   max-width: 1440px;
   margin: auto;
@@ -42,9 +46,10 @@ export const CardTitle = styled.p`
 
 export const CardImage = styled.img`
   width: 100%;
-  object-fit: contain;
+	height: 100%;
+  object-fit: cover;
 `
-export const LostFoundSign = styled.p`
+export const LostFoundSign = styled.p<Props>`
 	position: absolute;
 	left: 0;
 	top: 45%;
@@ -53,7 +58,7 @@ export const LostFoundSign = styled.p`
 	font-weight: 600;
 	opacity: 0.6;
 	text-align: center;
-	color: ${(props) => (props.isFound ? vars.$colorFound : vars.$colorLost)};
+	color: ${(props) => (props.$isFound ? vars.$colorFound : vars.$colorLost)};
 `
 
 export const CardDescription = styled.div`
