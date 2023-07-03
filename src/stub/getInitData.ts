@@ -8,7 +8,7 @@ import koala from './stubImages/koala.jpg'
 import parrot1 from './stubImages/parrot1.jpg'
 
 
-export const stubData = [
+export const getInitData = [
 	{
 		id:1,
 		isFound: false,
