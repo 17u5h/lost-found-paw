@@ -8,7 +8,7 @@ type Props = {
 const ImagesBlock = ({imageURLs}: Props) => {
 	return (
 		<S.ImagesBlock>
-
+			<img src={imageURLs[0]} alt='pet photo'/>
 		</S.ImagesBlock>
 	);
 };

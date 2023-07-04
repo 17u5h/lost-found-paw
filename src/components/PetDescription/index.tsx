@@ -16,8 +16,12 @@ const PetDescription = () => {
 
 	return (
 		<S.PetContainer>
-			<ImagesBlock imagesUrls={petData?.images}/>
-			<S.DescBlock petData={petData}/>
+			<ImagesBlock imageURLs={petData?.images}/>
+			<S.DescBlock>
+				<S.DescTitle>{petData?.petName}</S.DescTitle>
+				<S.DescAddress>{petData?.addressLost}</S.DescAddress>
+				<S.DescTel>{petData?.ownerData.ownerTel}</S.DescTel>
+			</S.DescBlock>
 
 		</S.PetContainer>
 	);
