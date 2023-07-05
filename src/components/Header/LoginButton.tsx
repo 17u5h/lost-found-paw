@@ -5,6 +5,7 @@ import LoginSign from "./LoginSign";
 import {vars} from "../../styles/vars";
 
 const LoginButton = () => {
+	const isAuth = true        																					  //useSelector
 	const [svgColor, setSvgColor] = useState<string>('#fff')
 
 	const toggleHoverTrue = () => {
@@ -17,8 +18,12 @@ const LoginButton = () => {
 	return (
 		<UIDarkButton onMouseEnter={toggleHoverTrue} onMouseLeave={toggleHoverFalse}>
 			<S.LoginButtonContainer>
-				<p>Войти</p>
-				<LoginSign color={svgColor}/>
+				{isAuth ?
+					<p>Войти</p>
+					:
+					<p>Зарегистрироваться</p>
+				}
+					<LoginSign color={svgColor}/>
 			</S.LoginButtonContainer>
 		</UIDarkButton>
 
