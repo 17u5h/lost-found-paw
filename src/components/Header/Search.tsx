@@ -1,14 +1,14 @@
 import React from 'react';
 import * as S from '../../styles/headerStyles'
-import UIDarkButton from "../UI/UIDarkButton";
+import UILightButton from "../UI/UILightButton";
 
 const Search = () => {
 	return (
 		<S.SearchBlock>
 			<S.SearchField placeholder='Поиск...'></S.SearchField>
-			<UIDarkButton>
+			<UILightButton>
 				Найти
-			</UIDarkButton>
+			</UILightButton>
 		</S.SearchBlock>
 	);
 };
