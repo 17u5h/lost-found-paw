@@ -40,20 +40,6 @@ export const SearchField = styled.input`
   }
 `
 
-export const UIDarkButton = styled.button`
-  padding: 4px 16px;
-  background-color: transparent;
-  font-size: ${vars.$fontsizeBigger};
-  color: ${vars.$colorThemeReverse};
-  border: 1px solid ${vars.$colorThemeReverse};
-  border-radius: 4px;
-  transition: background-color, color 0.1s;
-
-  &:hover {
-    color: ${vars.$colorThemeMain};
-    background-color: ${vars.$colorThemeReverse};
-  }
-`
 export const LoginButtonContainer = styled.div`
   display: flex;
   align-items: center;

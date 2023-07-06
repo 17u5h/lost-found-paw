@@ -1,15 +1,13 @@
-import React, {ReactNode} from 'react';
-import * as S from "../../styles/headerStyles";
+import React from 'react';
+import * as S from "../../styles/UIStyles";
 
 type Props = {
-	children: string | ReactNode
-	onMouseEnter?: () => void
-	onMouseLeave?: () => void
+	children: string
 }
 
-const UIDarkButton = ({onMouseEnter, onMouseLeave, children}: Props) => {
+const UIDarkButton = ({children}: Props) => {
 	return (
-		<S.UIDarkButton onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+		<S.UIDarkButton>
 			{children}
 		</S.UIDarkButton>
 	);

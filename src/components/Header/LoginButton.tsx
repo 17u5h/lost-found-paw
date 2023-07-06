@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import * as S from "../../styles/headerStyles";
-import UIDarkButton from "../UI/UIDarkButton";
+import UILightButton from "../UI/UILightButton";
 import LoginSign from "./LoginSign";
 import {vars} from "../../styles/vars";
 
@@ -16,7 +16,7 @@ const LoginButton = () => {
 	}
 
 	return (
-		<UIDarkButton onMouseEnter={toggleHoverTrue} onMouseLeave={toggleHoverFalse}>
+		<UILightButton onMouseEnter={toggleHoverTrue} onMouseLeave={toggleHoverFalse}>
 			<S.LoginButtonContainer>
 				{isAuth ?
 					<p>Войти</p>
@@ -25,7 +25,7 @@ const LoginButton = () => {
 				}
 					<LoginSign color={svgColor}/>
 			</S.LoginButtonContainer>
-		</UIDarkButton>
+		</UILightButton>
 
 	);
 };

@@ -1,11 +1,11 @@
 import React from 'react';
-import UIDarkButton from "../UI/UIDarkButton";
+import UILightButton from "../UI/UILightButton";
 
 const CreateAdvButton = () => {
 	return (
-		<UIDarkButton>
+		<UILightButton>
 			Подать объявление о пропаже
-		</UIDarkButton>
+		</UILightButton>
 	);
 };
 
