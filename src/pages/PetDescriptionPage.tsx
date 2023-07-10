@@ -1,14 +1,12 @@
 import React from 'react';
-import * as S from '../styles/headerStyles'
-import Logo from "../components/Logo";
 import PetDescription from "../components/PetDescription";
+import Header from "../components/Header";
 
 const PetDescriptionPage = () => {
+
 	return (
 		<>
-			<S.Header>
-				<Logo/>
-			</S.Header>
+			<Header/>
 			<PetDescription/>
 		</>
 	);

@@ -59,6 +59,7 @@ export const LostFoundSign = styled.p<Props>`
 	opacity: 0.6;
 	text-align: center;
 	color: ${(props) => (props.$isFound ? vars.$colorFound : vars.$colorLost)};
+	user-select: none;
 `
 
 export const CardDescription = styled.div`

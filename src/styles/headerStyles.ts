@@ -56,5 +56,8 @@ export const LoginButtonContainer = styled.div`
 export const LoginButtonSign = styled.p`
   font-size: ${vars.$fontsizeBigger};
   color: ${vars.$colorThemeReverse};
-
+`
+export const HeaderButtonsBlock = styled.div`
+	display: flex;
+	gap: 1vw;
 `

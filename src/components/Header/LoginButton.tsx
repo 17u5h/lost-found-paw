@@ -16,10 +16,10 @@ const LoginButton = () => {
 	}
 
 	return (
-		<UILightButton onMouseEnter={toggleHoverTrue} onMouseLeave={toggleHoverFalse}>
+		<UILightButton onMouseEnter={toggleHoverTrue} onMouseLeave={toggleHoverFalse} $isLoginButton={true}>
 			<S.LoginButtonContainer>
 				{isAuth ?
-					<p>Войти</p>
+					<p>Личный кабинет</p>
 					:
 					<p>Зарегистрироваться</p>
 				}
