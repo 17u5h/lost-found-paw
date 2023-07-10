@@ -15,6 +15,7 @@ export const HeaderLogo = styled.div`
   height: 60px;
   background-color: #fff;
 	color: #000;
+	cursor: pointer;
 `
 export const SearchBlock = styled.div`
   display: flex;
