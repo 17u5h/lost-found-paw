@@ -18,7 +18,7 @@ export const PetContainer = styled.div`
 
 export const ImagesBlock = styled.div`
   width: 40vw;
-  height: 50vw;
+  height: 75vh;
 `
 
 export const MainImage = styled.img`

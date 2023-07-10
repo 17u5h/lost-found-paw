@@ -1,14 +1,17 @@
 import styled from "styled-components";
 import {vars} from "./vars";
 
-export const UILightButton = styled.button`
-  padding: 4px 16px;
+type Props = {
+	$isLoginButton?: boolean
+}
+
+export const UILightButton = styled.button<Props>`
+  padding: ${(props) => (props?.$isLoginButton ? '4px 16px' : '12px 16px')};
   background-color: ${vars.$colorThemeMain};
   font-size: ${vars.$fontsizeBigger};
   color: ${vars.$colorThemeReverse};
   border: 1px solid ${vars.$colorThemeReverse};
   border-radius: 4px;
-  transition: background-color 0.1s, color 0.1s;
 
   &:hover {
     color: ${vars.$colorThemeMain};
@@ -24,7 +27,6 @@ export const UIDarkButton = styled.button`
   color: ${vars.$colorThemeMain};
   border: 1px solid ${vars.$colorThemeMain};
   border-radius: 4px;
-  transition: background-color 0.1s, color 0.1s;
 
   &:hover {
     color: ${vars.$colorThemeReverse};
