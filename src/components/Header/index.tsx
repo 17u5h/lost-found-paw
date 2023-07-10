@@ -13,8 +13,10 @@ const Header = () => {
 		<S.Header>
 			<Logo/>
 			{!isPetPage && <Search/>}
-			{isAuth && <CreateAdvButton/>}
-			<LoginButton />
+			<S.HeaderButtonsBlock>
+				{isAuth && <CreateAdvButton/>}
+				<LoginButton />
+			</S.HeaderButtonsBlock>
 		</S.Header>
 	);
 };
