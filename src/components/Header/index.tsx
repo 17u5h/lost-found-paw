@@ -6,7 +6,7 @@ import * as S from '../../styles/headerStyles'
 import CreateAdvButton from "./CreateAdvButton";
 
 const Header = () => {
-	const isPetPage = true																				//useSelector
+	const isPetPage = false																				//useSelector
 	const isAuth = true																						//useSelector
 
 	return (

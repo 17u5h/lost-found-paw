@@ -19,6 +19,7 @@ export const HeaderLogo = styled.div`
 `
 export const SearchBlock = styled.div`
   display: flex;
+	align-items: center;
   gap: 10px;
 `
 
@@ -30,7 +31,7 @@ export const SearchField = styled.input`
   padding-left: 20px;
 	font-size: ${vars.$fontsizeRegular};
 
-  &:focus {
+  &:focus, &:hover {
     outline: 2px solid ${vars.$colorThemeMainLighter};
 		box-shadow: 0 0 30px ${vars.$colorThemeMainLighter};
   }
