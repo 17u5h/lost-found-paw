@@ -5,6 +5,7 @@ import PetDescriptionPage from "../pages/PetDescriptionPage";
 import MainPage from "../pages/MainPage";
 import NotFound from "../pages/NotFound";
 import UserProfilePage from "../pages/UserProfilePage";
+import CreateAdvPage from "../pages/CreateAdvPage";
 
 const AppRoutes = () => {
 	const isAuth = true																							//useSelector
@@ -16,6 +17,7 @@ const AppRoutes = () => {
 
 			<Route element={<ProtectedRoute isAuth={isAuth} />}>
 				<Route path="profile" element={<UserProfilePage />}></Route>
+				<Route path="create" element={<CreateAdvPage />}></Route>
 			</Route>
 
 			<Route path="*" element={<NotFound />} />

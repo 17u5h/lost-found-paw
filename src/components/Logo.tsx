@@ -1,9 +1,12 @@
 import React from 'react';
 import * as S from '../styles/headerStyles'
+import {useNavigate} from "react-router-dom";
 
 const Logo = () => {
+	const navigate = useNavigate()
+
 	return (
-		<S.HeaderLogo>
+		<S.HeaderLogo onClick={() => navigate('/')}>
 			лого
 		</S.HeaderLogo>
 	);
