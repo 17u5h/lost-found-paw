@@ -8,13 +8,14 @@ import CreateAdvButton from "./CreateAdvButton";
 const Header = () => {
 	const isPetPage = false																				//useSelector
 	const isAuth = true																						//useSelector
+	const isCreateAdvPage = true																	//useSelector
 
 	return (
 		<S.Header>
 			<Logo/>
-			{!isPetPage && <Search/>}
+			{!isPetPage && !isCreateAdvPage && <Search/>}
 			<S.HeaderButtonsBlock>
-				{isAuth && <CreateAdvButton/>}
+				{isAuth && !isCreateAdvPage && <CreateAdvButton/>}
 				<LoginButton />
 			</S.HeaderButtonsBlock>
 		</S.Header>
