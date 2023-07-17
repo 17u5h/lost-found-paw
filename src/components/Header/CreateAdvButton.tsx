@@ -6,8 +6,8 @@ const CreateAdvButton = () => {
 	const navigate = useNavigate()
 
 	return (
-		<UILightButton onClick={() => navigate('create')}>
-			Подать объявление о пропаже
+		<UILightButton onClick={() => navigate('/create')}>
+			Подать объявление
 		</UILightButton>
 	);
 };

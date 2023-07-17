@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import * as S from "../../styles/CreateAdvStyles";
+import {useNavigationStore} from "../../store/useNavigationStore";
 
 const CreateAdv = () => {
+	const {dispatchCreateAdvPage} = useNavigationStore(({dispatchCreateAdvPage}) => ({dispatchCreateAdvPage}))
+
+	useEffect(() => {
+		dispatchCreateAdvPage(true)
+	}, [])
+
 	return (
 		<S.Wrapper>
 			<S.Container>

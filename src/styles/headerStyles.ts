@@ -7,6 +7,7 @@ export const Header = styled.div`
   justify-content: space-between;
   padding: 0 20px;
   height: 80px;
+	width: 100%;
   background-color: ${vars.$colorThemeMain};
 `
 

@@ -13,11 +13,11 @@ const AppRoutes = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<MainPage />}></Route>
-			<Route path="pet/:id" element={<PetDescriptionPage/>} />
+			<Route path="/pet/:id" element={<PetDescriptionPage/>} />
 
 			<Route element={<ProtectedRoute isAuth={isAuth} />}>
-				<Route path="profile" element={<UserProfilePage />}></Route>
-				<Route path="create" element={<CreateAdvPage />}></Route>
+				<Route path="/profile" element={<UserProfilePage />}></Route>
+				<Route path="/create" element={<CreateAdvPage />}></Route>
 			</Route>
 
 			<Route path="*" element={<NotFound />} />
