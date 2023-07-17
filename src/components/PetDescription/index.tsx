@@ -5,15 +5,21 @@ import {getPetDescription} from "../../stub/getPetDescription";
 import {Pet} from "../../types/petData";
 import ImagesBlock from "./ImagesBlock";
 import UILightButton from "../UI/UILightButton";
+import {useNavigationStore} from "../../store/useNavigationStore";
 
 const PetDescription = () => {
 	const {id} = useParams()
 	const fetchPet = () => getPetDescription 																//axios
 	const [petData, setPetData] = useState<Pet>()
 
+	const {dispatchPetPage} = useNavigationStore(({dispatchPetPage}) => ({dispatchPetPage}))
+
+	useEffect(() => {
+		dispatchPetPage(true)
+	}, [])
+
 	useEffect(() => {
 		setPetData(fetchPet())
-
 	}, [])
 
 	return (
