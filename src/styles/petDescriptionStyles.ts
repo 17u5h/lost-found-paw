@@ -7,12 +7,19 @@ export const PetImageSkeleton = styled.div`
   background-color: #f3f3f3;
 `
 
+export const PetWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4vh;
+	gap: 2vh;
+`
+
 export const PetContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
-	margin-top: 10vh;
 	color: #000;
 `
 
